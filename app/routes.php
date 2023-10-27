@@ -128,7 +128,7 @@ return function (App $app) {
 
     
 //=============================================================================================================//     
-    //Call ReadObat -- untuk membaca data dari tabel Jenazah
+    //Call ReadJenazah -- untuk membaca data dari tabel Jenazah
     $app->get('/Jenazah', function (Request $request, Response $response) {
         $db = $this->get(PDO::class);
 
